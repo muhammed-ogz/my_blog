@@ -4,8 +4,8 @@
     /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold; */
     font-family: 'Open Sans', sans-serif;
-    margin-left: 7%;
-    margin-right: 7%;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-top: 0px;
 }
 
@@ -21,14 +21,18 @@ header a .github-logo{
     width: 20px;
    
 }
-
-main{
-    margin-top: 5%;
-    height: 750px;
+article{
+    padding: 1%;
 }
-
-footer{
-    text-align: right;
-    position: relative;
-    margin-bottom: 7%;
+footer .git{
+    float: inline-end;
+    width: 40%;
+}
+footer .logo{
+    text-align: center;
+    width: 20px;
+}
+footer .links{
+    width: 350px;
+    display: flex;
 }
